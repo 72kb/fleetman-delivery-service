@@ -1,0 +1,1 @@
+eksctl create cluster --name fleetman --region us-east-1 --version 1.25
