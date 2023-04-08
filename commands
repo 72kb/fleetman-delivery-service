@@ -1,0 +1,2 @@
+eksctl create cluster --name fleetman --region us-east-1 --version 1.25 --nodes-min=3
+eksctl scale nodegroup --name ng-fcf77e2a --cluster fleetman-eks --nodes 3 --nodes-min 3 --nodes-max 3
